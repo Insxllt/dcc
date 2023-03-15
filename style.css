@@ -1,3 +1,4 @@
+
 body, html{
     height:100%;
     margin:0;
@@ -5,12 +6,13 @@ body, html{
     font-family:"Lato", sans-serif;
     font-weight: 400;
     line-height: 1.8em;
-    color:#666;
+    color:rgb(0, 0, 0);
 }
+
 
 .pimg1, .pimg2, .pimg3{
     position: relative;
-    opacity: 0.70;
+    /* opacity: 0.70; */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -19,12 +21,12 @@ body, html{
 }
 
 .pimg1{
-    background-image:url("./pexels-nout-gons-378570.jpg");
+    background-image:url("./outsideVar.jpg");
     min-height:100%;
 }
 
 .pimg2 {
-    background-image: url("./pexels-peng-liu-169647.jpg");
+    background-image: url("./golfcourse.jpg");
     min-height: 400px;
 }
 
@@ -39,13 +41,17 @@ body, html{
 }
 
 .section-light{
-    background-color: #f4f4f4;
-    color:#666
+    background-color: #ffffff;
+    color:rgb(0, 0, 0);
+}
+
+.section-light h2 {
+    font-size: 33px;
 }
 
 .section-dark {
-    background-color: #282e34;
-    color: #ddd
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
 }
 
 .ptext{
@@ -64,3 +70,50 @@ body, html{
     color: white;
     padding: 20px;
 }
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 15px;
+    min-width: 400px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.content-table thead tr {
+    background-color: #717171;
+    color: #ffffff;
+    text-align: center;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+ 
+td {
+    border: 1px solid #717171;
+    border-top: 0;
+    border-bottom: 0;
+    /* border-left: 0; */
+    border-right: 0;
+}
+
+
+table td:first-child {
+  border-left: 0;
+}
+
+/* .content-table tbody tr {
+    border-bottom: 1px solid #000000;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2sspx solid rgba(0, 0, 0, 0.15);
+} */
+
